@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    // Prettier
+    "prettier/prettier": "warn",
+    // React
+    "react/react-in-jsx-scope": "off"
+  }
 }

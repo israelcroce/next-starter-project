@@ -1,0 +1,9 @@
+{
+  "*/**/*.{js,jsx,ts,tsx}": [
+    "yarn lint-code:fix",
+    "yarn test --passWithNoTests"
+  ],
+  "*.{css}": [
+    "yarn lint-style:fix"
+  ]
+}
